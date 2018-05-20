@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    color: #333;
+    font-family: 'Exo 2', sans-serif;
+    background-color: whitesmoke;
+}
+
+#intro {
+    height: 100vh;
+    background: radial-gradient(circle, #7a9e9f 0%, #4f6367 100%);
+    text-align: center;
+    color: #fff;
+}
+#intro .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titles
+{
+    font-size: 1.4em;
+    margin-bottom: 25px;
+    
+}
+.education {
+    text-align: center;
+    margin: 200px 0;
+    border-bottom: 1px #ebebeb solid;
+}
+.education-info{
+    display: inline-block;
+    width: 45vw;
+}
+.education-courses{
+    display: inline-block;    
+    width: 45vw;
+    text-align: left;
+    margin-left: 15px;
+}
+.education-info img {
+    width: 180px;
+    height: 180px;
+}
+.education p {
+    max-width: 300px;
+    margin: 0 auto;
+    color: #294D67;
+}
+.certificate{
+    margin: 100px;
+}
+.certificate img{
+    width: 80vw;
+}
