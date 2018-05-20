@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="3">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Asen Manchev - interactive CV</title>
@@ -16,11 +15,22 @@
 <body>
     <div id="intro">
         <div class="content">
-            <h1>Welcome</h1>
-            <img src="images/cv.jpg" alt="profile picture">
-            <p>Lorem ipusum daoue fhaafoe aoenf aeoifn afn aeonf oaeunf aef foianef aeinf aeion.</p>
+            <h1>Hello!</h1>
+            <p>Good to see you here.</p>
+            <img src="images/hello.png" alt="bitmoji">
+            
+            <button class="c-scroll-down">
+                <div class="c-scroll-down-after"></div>
+                scroll down</button>
+
         </div>
     </div>
+    <div class="about">
+        <div class="titles">
+            <h1>WHO I AM?</h1>
+        </div>
+    </div>
+
     <div class="education">
         <div class="titles">
             <h1>EDUCATION</h1>
@@ -78,7 +88,8 @@
             </div>
             <div class="certificate">
                 <a href="https://my.telerikacademy.com/Certificates/View/2373/20d8d9a6">
-                <img src="images/telerik-certificate.png" alt=""></a>
+                    <img src="images/telerik-certificate.png" alt="">
+                </a>
             </div>
         </div>
         <div id="education02">
@@ -93,9 +104,21 @@
 
         </div>
     </div>
-    <script src="scripts/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
     <script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+    <script src="scripts/jquery.nicescroll.js"></script>
+
+    <script src="scripts/main.js"></script>
+    
 </body>
 
 </html>
