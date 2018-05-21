@@ -18,15 +18,16 @@ body
 }
 #intro .content {
     position: absolute;
-    top: 55%;
+    top: 20vh;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
+    height: 80vh;
 }
 #intro img{
     position: absolute;
-    top: 78.4% ;
+    bottom: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
 }
 #intro .content h1{
     font-size: 100px; 
@@ -49,7 +50,7 @@ body
     outline: 0;
     text-align: center;
     padding: 0;
-    margin:50vh 0 0 0;
+    margin:56vh 0 0 0;
     white-space: nowrap;
     font-size: 10px;
     letter-spacing: 0.1px;
@@ -78,18 +79,49 @@ body
     left: 50%;
     margin-left: -3px;
   }
-  
+  h2 
+  {
+      margin-bottom: 10px;
+  }
 .titles
 {
     font-size: 1.4em;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     
+}
+
+.inline-block{
+    display: inline-block;
 }
 .about
 {
     text-align: center;
     margin: 200px 0;
-    border-bottom: 1px #ebebeb solid;
+}
+.about-img
+{
+    width: 45vw;
+    vertical-align: top;
+    
+}
+.about-contacts
+{
+    vertical-align: top;
+    
+    width: 45vw;
+    text-align: left;
+    margin: 5px 0 5px 15px;
+
+}
+.about-contacts ul
+{
+    list-style: none;
+}
+.about-summary
+{
+    width: 80vw;
+    margin: 25px 0 15px 10vw;
+    height: 20px;
 }
 /* .about h1{
     opacity: 0;
@@ -101,40 +133,52 @@ body
     //transform: translateY(0px); 
     transition: all 0.5s ease-in-out;
 } */
-.education {
+.educations {
     text-align: center;
     margin: 200px 0;
-    border-bottom: 1px #ebebeb solid;
+    /* border-bottom: 1px #ebebeb solid; */
 }
 .education-info{
     display: inline-block;
     vertical-align: top;
     width: 45vw;
+    
 }
 .education-courses{
+    font-size: 1.2em;
     display: inline-block;    
     width: 45vw;
     text-align: left;
     margin-left: 15px;
 }
 .education-info img {
-    width: 180px;
-    height: 180px;
+    width: 200px;
 }
 .education p {
+    font-size: 1.2em;  
     margin: 10px auto;
     color: #294D67;
     vertical-align: middle;
+    
+}
+.education{
+    margin-bottom: 100px;
 }
 .certificate{
-    margin: 100px;
+    margin: 25px 10vw;
 }
 .certificate img{
-    width: 80vw;
+    width: 70vw;
 }
 ion-icon
 {
     color: #5ae000;
-    font-size: 120%;
+    font-size: 150%;
     vertical-align: middle;
+    margin-right: 10px;
+}
+.date 
+{
+    font-size: 0.6em;
+    opacity: 0.7;
 }
