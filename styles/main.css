@@ -41,7 +41,8 @@ body
 
 
 .c-scroll-down {
-    position: relative;
+    position: absolute;
+    bottom: 25px;
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
@@ -50,11 +51,9 @@ body
     outline: 0;
     text-align: center;
     padding: 0;
-    margin:56vh 0 0 0;
     white-space: nowrap;
     font-size: 10px;
     letter-spacing: 0.1px;
-    margin-bottom: -6px;
     line-height: 1.2;
     opacity: 0;
   
