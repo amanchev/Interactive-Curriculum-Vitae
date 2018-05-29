@@ -8,6 +8,7 @@ body
     color: #333;
     font-family: 'Exo 2', sans-serif;
     background-color: whitesmoke;
+    margin-bottom: 50vh;
 }
 
 #intro {
@@ -40,7 +41,7 @@ body
 }
 
 
-.c-scroll-down {
+.scroll-down {
     position: absolute;
     bottom: 25px;
     text-transform: uppercase;
@@ -58,23 +59,24 @@ body
     opacity: 0;
   
   }
-  .c-scroll-down:before {
+  .scroll-down:before {
     width: 20px;
     height: 30px;
     border: 2px solid #fff;
     content: '';
     display: block;
     border-radius: 30px;
-    margin: 6px auto;
+    margin: 0px auto;
+    margin-bottom: 7px;
   }
-  .c-scroll-down-after {
+  .scroll-down-dot {
     position: absolute;
     border-radius: 100%;
     width: 6px;
     height: 6px;
     background-color: #fff;
     content: '';
-    top: 12px;
+    top: 6px;
     left: 50%;
     margin-left: -3px;
   }
@@ -112,7 +114,7 @@ body
     margin: 5px 0 5px 15px;
 
 }
-.about-contacts ul
+ul
 {
     list-style: none;
 }
@@ -132,35 +134,35 @@ body
     //transform: translateY(0px); 
     transition: all 0.5s ease-in-out;
 } */
-.educations {
+.elements {
     text-align: center;
-    margin: 200px 0;
+    margin: 15vh 0 30vh 0;
     /* border-bottom: 1px #ebebeb solid; */
 }
-.education-info{
+.element-info{
     display: inline-block;
     vertical-align: top;
     width: 45vw;
     
 }
-.education-courses{
+.element-courses{
     font-size: 1.2em;
     display: inline-block;    
     width: 45vw;
     text-align: left;
     margin-left: 15px;
 }
-.education-info img {
+.element-info img {
     width: 200px;
 }
-.education p {
+.element li, .element p {
     font-size: 1.2em;  
     margin: 10px auto;
     color: #294D67;
     vertical-align: middle;
     
 }
-.education{
+.element{
     margin-bottom: 100px;
 }
 .certificate{

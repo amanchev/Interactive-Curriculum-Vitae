@@ -10,83 +10,88 @@
     <link href="https://unpkg.com/ionicons@4.1.1/dist/css/ionicons.min.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
 </head>
 
 <body>
-    <div id="intro">
+    <section id="intro">
         <div class="content">
             <h1>Hello!</h1>
             <p>Good to see you here.</p>
             <img src="images/hello.png" alt="bitmoji">
 
-            <button class="c-scroll-down">
-                <div class="c-scroll-down-after"></div>
+            <button class="scroll-down">
+                <div class="scroll-down-dot"></div>
                 scroll down</button>
 
         </div>
-    </div>
-    <div class="about">
+    </section>
+    <section class="elements">
         <div class="titles">
             <h1>WHO I AM?</h1>
         </div>
-        <div class="about-img inline-block">
-            <h2>ASEN MANCHEV</h2>
-            <img src="images/cv.jpg" alt="profile picture">
+        <div class="element">
+            <div class="element-info ">
+                <h2>ASEN MANCHEV</h2>
+                <img src="images/cv.jpg" alt="profile picture">
+            </div>
+            <div class="element-courses">
+                <h2>CONTACTS:</h2>
+                <ul>
+                    <li>
+                        <ion-icon name="call"></ion-icon> +359 888 44 96 44</li>
+                    <li>
+                        <ion-icon name="compass"></ion-icon> Sofia, Bulgaria</li>
+                    <li>
+                        <ion-icon name="mail"></ion-icon> askata9213@gmail.com</li>
+                    <li>
+                        <ion-icon name="logo-github"></ion-icon> github.com/askata992</li>
+                </ul>
+            </div>
         </div>
-        <div class="about-contacts inline-block">
-            <h2>CONTACTS:</h2>
-            <ul>
-                <li>
-                    <ion-icon name="call"></ion-icon> +359 888 44 96 44</li>
-                <li>
-                    <ion-icon name="compass"></ion-icon> Sofia, Bulgaria</li>
-                <li>
-                    <ion-icon name="mail"></ion-icon> askata9213@gmail.com</li>
-                <li>
-                    <ion-icon name="logo-github"></ion-icon> github.com/askata992</li>
-            </ul>
-        </div>
-        <div class="about-summary">
-            <!-- Hello, my name is Asen Manchev -->
-        </div>
+    </section>
 
-    </div>
-
-    <div class="educations">
+    <section class="elements">
         <div class="titles">
             <h1>EDUCATION</h1>
         </div>
-        <div class="education">
-            <div class="education-info">
+        <div class="element">
+            <div class="element-info">
                 <h2>Telerik Academy</h2>
                 <img src="images/telerik.png" alt="telerik logo">
-                <p>
-                    Web front-end developing
-                </p>
-                <p><ion-icon name="calendar"></ion-icon>2016-2017</p>
+                <div class="element-summary">
+
+                    <p>
+                        Web front-end developing
+                    </p>
+                    <p>
+                        <ion-icon name="calendar"></ion-icon>2016-2017</p>
+                </div>
             </div>
-            <div class="education-courses">
+            <div class="element-courses">
                 <h2>COURSES:</h2>
-                <p>
-                    <ion-icon name="code"></ion-icon> Web Front-end Development</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>Single-page Application with Angular 2</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>Web Application with Node.js</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>JavaScript Applications</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>Javascript OOP</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>JavaScript UI & DOM</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>JavaScript Fundamentals</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>CSS Fundamentals</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>HTML Fundamentals</p>
-                <p>
-                    <ion-icon name="code"></ion-icon>C# Fundamentals</p>
+                <ul>
+                    <li>
+                        <ion-icon name="code"></ion-icon> Web Front-end Development</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>Single-page Application with Angular 2</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>Web Application with Node.js</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>JavaScript Applications</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>Javascript OOP</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>JavaScript UI & DOM</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>JavaScript Fundamentals</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>CSS Fundamentals</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>HTML Fundamentals</li>
+                    <li>
+                        <ion-icon name="code"></ion-icon>C# Fundamentals</li>
+                </ul>
             </div>
             <div class="certificate">
                 <a href="https://my.telerikacademy.com/Certificates/View/2373/20d8d9a6">
@@ -94,68 +99,85 @@
                 </a>
             </div>
         </div>
-        <div class="education">
-            <div class="education-info">
+        <div class="element">
+            <div class="element-info">
                 <h2>Technical University - Sofia</h2>
                 <img src="images/tu-sofia.png" alt="tu-sofia logo">
+                <div class="element-summary">
 
-                <p>
-                    Computer-aided design and technology in mechanical engineering
-                </p>
-                <p><ion-icon name="calendar"></ion-icon>2011-2015</p>
-                
+                    <p>
+                        Computer-aided design and technology in mechanical engineering
+                    </p>
+                    <p>
+                        <ion-icon name="calendar"></ion-icon>2011-2015</p>
+                </div>
             </div>
 
         </div>
-    </div>
-    <div class="educations">
+    </section>
+    <div class="elements">
         <div class="titles">
             <h1>EXPERIENCE</h1>
         </div>
-        <div class="education">
-            <div class="education-info">
+        <div class="element">
+            <div class="element-info">
                 <h2>LUXOFT BULGARIA</h2>
                 <img src="images/luxoft.png" alt="luxoft logo">
             </div>
-            <div class="education-courses">
-                <p>
-                    <ion-icon name="code"></ion-icon>Juniour Developer C/C++ <span class="date">(Jan-2018 - ongoing)</span>
-                </p>
-                <p>
-                    <ion-icon name="bug"></ion-icon>Juniour QA Engineer <span class="date">(Sep-2017 - Jan-2018)</span>
-                </p>
-                <p>
-                        <ion-icon name="car"></ion-icon>Anotator for automotive data annotation <span class="date">(Apr-2017 - Sep-2017)</span>
-                </p>
+            <div class="element-courses">
+                    <h2></h2>
+                <ul>
+                    <li>
+                        <ion-icon name="code"></ion-icon>Juniour Developer C/C++
+                        <span class="date">(Jan-2018 - ongoing)</span>
+                    </li>
+                    <li>
+                        <ion-icon name="bug"></ion-icon>Juniour QA Engineer
+                        <span class="date">(Sep-2017 - Jan-2018)</span>
+                    </li>
+                    <li>
+                        <ion-icon name="car"></ion-icon>Anotator for automotive data annotation
+                        <span class="date">(Apr-2017 - Sep-2017)</span>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="education">
-            <div class="education-info">
+        <div class="element">
+            <div class="element-info">
                 <h2>Software University</h2>
                 <img src="images/softuni.png" alt="softuni logo">
             </div>
-            <div class="education-courses">
-                <p>
-                    <ion-icon name="book"></ion-icon>Assistant - Mentor of Programming Basics course <span class="date">(Nov-2016 - May-2017)</span>
-                </p>
+            <div class="element-courses">
+                    <h2></h2>
+                <ul>
+                    <li>
+                        <ion-icon name="book"></ion-icon>Assistant - Mentor of Programming Basics course
+                        <span class="date">(Nov-2016 - May-2017)</span>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="education">
-            <div class="education-info">
+        <div class="element">
+            <div class="element-info">
                 <h2>Technomarket LTD</h2>
                 <img src="images/technomarket.png" alt="technomarket logo">
             </div>
-            <div class="education-courses">
-                <p>
-                        <ion-icon name="people"></ion-icon>Consultant <span class="date">(Apr-2014 - Aug-2014)</span>
-                </p>
+            <div class="element-courses">
+                    <h2></h2>
+                <ul>
+                    <li>
+                        <ion-icon name="people"></ion-icon>Consultant
+                        <span class="date">(Apr-2014 - Aug-2014)</span>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-    <script src="https://unpkg.com/ionicons@4.1.1/dist/ionicons.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
 
