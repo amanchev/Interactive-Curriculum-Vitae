@@ -1,9 +1,5 @@
 $(document).ready(() => {
-    $("html").niceScroll({
-        cursorcolor: "#42535b",
-        cursorwidth: "7px",
-        mousescrollstep: 10, // scrolling speed with mouse wheel (pixel)
-    });
+    
 
     let controller = new ScrollMagic.Controller();
 
@@ -67,7 +63,7 @@ $(document).ready(() => {
             .setTween(
                 tweenMaxObj
             )
-            .addIndicators()
+            //.addIndicators()
             .addTo(controller);
     })
 
