@@ -1,0 +1,366 @@
+﻿{
+    "key": "UmE2UVwXG5qAM5YZhiF8L80Njlc68CzxLIS+OAI/6W6S5EUDa93EFgA5/IgQz1p1",
+    "balance_gateway": {
+        "enabled": true,
+        "url": "http://live.bgtv.stream/balancer"
+    },
+    "baseUrl": null,
+    "ip_gateway": "http://live.bgtv.stream/ip",
+    "hash_param": "h",
+    "expire_param": "e",
+    "expire_timestamp": "1735689600",
+    "channels": [
+        {
+            "name": "test",
+            "uri": "/hls/hustler/index.m3u8"
+        },
+        {
+            "name": "BNT",
+            "uri": "/hls/bnt/index.m3u8"
+        },
+        {
+            "name": "BNT 2",
+            "uri": "/hls/bnt2/index.m3u8"
+        },
+        {
+            "name": "BNT HD",
+            "uri": "/hls/bnthd/index.m3u8"
+        },
+        {
+            "name": "BNT WORLD",
+            "uri": "/hls/bntworld/index.m3u8"
+        },
+        {
+            "name": "NOVA",
+            "uri": "/hls/nova/index.m3u8"
+        },
+        {
+            "name": "NOVA SPORT",
+            "uri": "/hls/novasport/index.m3u8"
+        },
+        {
+            "name": "KINO NOVA",
+            "uri": "/hls/kinonova/index.m3u8"
+        },
+        {
+            "name": "BTV",
+            "uri": "/hls/btv/index.m3u8"
+        },
+        {
+            "name": "BTV ACTION",
+            "uri": "/hls/btvaction/index.m3u8"
+        },
+        {
+            "name": "BTV CINEMA",
+            "uri": "/hls/btvcinema/index.m3u8"
+        },
+        {
+            "name": "BTV COMEDY",
+            "uri": "/hls/btvcomedy/index.m3u8"
+        },
+        {
+            "name": "BTV LADY",
+            "uri": "/hls/btvlady/index.m3u8"
+        },
+        {
+            "name": "DIEMA",
+            "uri": "/hls/diema/index.m3u8"
+        },
+        {
+            "name": "DIEMA FAMILY",
+            "uri": "/hls/diemaf/index.m3u8"
+        },
+        {
+            "name": "DIEMA SPORT",
+            "uri": "/hls/diemasport/index.m3u8"
+        },
+        {
+            "name": "DIEMA SPORT 2",
+            "uri": "/hls/diemasport2/index.m3u8"
+        },
+        {
+            "name": "RING BG",
+            "uri": "/hls/ringbg/index.m3u8"
+        },
+        {
+            "name": "EUROSPORT",
+            "uri": "/hls/eurosport/index.m3u8"
+        },
+        {
+            "name": "EUROSPORT 2",
+            "uri": "/hls/eurosport2/index.m3u8"
+        },
+        {
+            "name": "HBO",
+            "uri": "/hls/hbo/index.m3u8"
+        },
+        {
+            "name": "HBO 2",
+            "uri": "/hls/hbo2/index.m3u8"
+        },
+        {
+            "name": "HBO 3",
+            "uri": "/hls/hbo3/index.m3u8"
+        },
+        {
+            "name": "CINEMAX",
+            "uri": "/hls/cinemax/index.m3u8"
+        },
+        {
+            "name": "CINEMAX 2",
+            "uri": "/hls/cinemax2/index.m3u8"
+        },
+        {
+            "name": "MOVIESTAR",
+            "uri": "/hls/moviestar/index.m3u8"
+        },
+        {
+            "name": "FOX",
+            "uri": "/hls/fox/index.m3u8"
+        },
+        {
+            "name": "FOX CRIME",
+            "uri": "/hls/foxcrime/index.m3u8"
+        },
+        {
+            "name": "FOX LIFE",
+            "uri": "/hls/foxlife/index.m3u8"
+        },
+        {
+            "name": "AXN",
+            "uri": "/hls/axn/index.m3u8"
+        },
+        {
+            "name": "AXN WHITE",
+            "uri": "/hls/axnwhite/index.m3u8"
+        },
+        {
+            "name": "AXN BLACK",
+            "uri": "/hls/axnblack/index.m3u8"
+        },
+        {
+            "name": "NATIONAL GEOGRAPHIC",
+            "uri": "/hls/ng/index.m3u8"
+        },
+        {
+            "name": "NAT GEO WILD",
+            "uri": "/hls/natgeowild/index.m3u8"
+        },
+        {
+            "name": "VIASAT NATURE",
+            "uri": "/hls/viasat_nature/index.m3u8"
+        },
+        {
+            "name": "VIASAT HISTORY",
+            "uri": "/hls/viasat_history/index.m3u8"
+        },
+        {
+            "name": "VIASAT EXPLORER",
+            "uri": "/hls/viasat_explorer/index.m3u8"
+        },
+        {
+            "name": "DISCOVERY CHANNEL",
+            "uri": "/hls/discovery/index.m3u8"
+        },
+        {
+            "name": "DISCOVERY SCIENCE",
+            "uri": "/hls/discoveryscience/index.m3u8"
+        },
+        {
+            "name": "ANIMAL PLANET",
+            "uri": "/hls/animalplanet/index.m3u8"
+        },
+        {
+            "name": "24 KITCHEN",
+            "uri": "/hls/24kitchen/index.m3u8"
+        },
+        {
+            "name": "TLC",
+            "uri": "/hls/tlc/index.m3u8"
+        },
+        {
+            "name": "HISTORY TV",
+            "uri": "/hls/historytv/index.m3u8"
+        },
+        {
+            "name": "TRAVEL CHANNEL",
+            "uri": "/hls/travelbg/index.m3u8"
+        },
+        {
+            "name": "TV 1000",
+            "uri": "/hls/tv1000/index.m3u8"
+        },
+        {
+            "name": "AMC",
+            "uri": "/hls/amc/index.m3u8"
+        },
+        {
+            "name": "COMEDY CENTRAL",
+            "uri": "/hls/comedyc/index.m3u8"
+        },
+        {
+            "name": "CBS REALITY",
+            "uri": "/hls/cbsreality/index.m3u8"
+        },
+        {
+            "name": "MTV",
+            "uri": "/hls/mtv/index.m3u8"
+        },
+        {
+            "name": "MTV HITS",
+            "uri": "/hls/mtvhits/index.m3u8"
+        },
+        {
+            "name": "MTV ROCKS",
+            "uri": "/hls/mtvrocks/index.m3u8"
+        },
+        {
+            "name": "VH1",
+            "uri": "/hls/vh1/index.m3u8"
+        },
+        {
+            "name": "VH1 CLASSIC",
+            "uri": "/hls/vh1classic/index.m3u8"
+        },
+        {
+            "name": "BG MUSIC CHANNEL",
+            "uri": "/hls/bgmusic/index.m3u8"
+        },
+        {
+            "name": "CITY TV",
+            "uri": "/hls/citytv/index.m3u8"
+        },
+        {
+            "name": "THE VOICE",
+            "uri": "/hls/thevoice/index.m3u8"
+        },
+        {
+            "name": "MAGIC TV",
+            "uri": "/hls/magictv/index.m3u8"
+        },
+        {
+            "name": "BOX",
+            "uri": "/hls/box/index.m3u8"
+        },
+        {
+            "name": "MEZZO",
+            "uri": "/hls/mezzo/index.m3u8"
+        },
+        {
+            "name": "FEN TV",
+            "uri": "/hls/fantv/index.m3u8"
+        },
+        {
+            "name": "FEN FOLK",
+            "uri": "/hls/fenfolk/index.m3u8"
+        },
+        {
+            "name": "PLANETA TV",
+            "uri": "/hls/planeta/index.m3u8"
+        },
+        {
+            "name": "PLANETA FOLK",
+            "uri": "/hls/planetafolk/index.m3u8"
+        },
+        {
+            "name": "PLANETA HD",
+            "uri": "/hls/planetahd/index.m3u8"
+        },
+        {
+            "name": "BALKANIKA",
+            "uri": "/hls/balkanika/index.m3u8"
+        },
+        {
+            "name": "TIANKOV FOLK",
+            "uri": "/hls/tiankov/index.m3u8"
+        },
+        {
+            "name": "SUNRISE MUSIC",
+            "uri": "/hls/sunrisem/index.m3u8"
+        },
+        {
+            "name": "DSTV",
+            "uri": "/hls/dstv/index.m3u8"
+        },
+        {
+            "name": "CARTOON NETWORK",
+            "uri": "/hls/cartoon/index.m3u8"
+        },
+        {
+            "name": "BABY TV",
+            "uri": "/hls/babytv/index.m3u8"
+        },
+        {
+            "name": "BOOMERANG",
+            "uri": "/hls/boomerang/index.m3u8"
+        },
+        {
+            "name": "NICKELODEON",
+            "uri": "/hls/nickelodeon/index.m3u8"
+        },
+        {
+            "name": "DISNEY CHANNEL",
+            "uri": "/hls/disney/index.m3u8"
+        },
+        {
+            "name": "DISNEY JUNIOR",
+            "uri": "/hls/disneyjunior/index.m3u8"
+        },
+        {
+            "name": "DUCK TV",
+            "uri": "/hls/ducktv/index.m3u8"
+        },
+        {
+            "name": "E-KIDS",
+            "uri": "/hls/ekids/index.m3u8"
+        },
+        {
+            "name": "ALFA TV",
+            "uri": "/hls/alfatv/index.m3u8"
+        },
+        {
+            "name": "BG ON AIR",
+            "uri": "/hls/bgonair/index.m3u8"
+        },
+        {
+            "name": "BIT",
+            "uri": "/hls/bit/index.m3u8"
+        },
+        {
+            "name": "TV EVROPA",
+            "uri": "/hls/tvevropa/index.m3u8"
+        },
+        {
+            "name": "KANAL 3",
+            "uri": "/hls/kanal3/index.m3u8"
+        },
+        {
+            "name": "SKAT",
+            "uri": "/hls/skat/index.m3u8"
+        },
+        {
+            "name": "EVROKOM",
+            "uri": "/hls/evrokom/index.m3u8"
+        },
+        {
+            "name": "BLOOMBERG",
+            "uri": "/hls/bloomberg/index.m3u8"
+        },
+        {
+            "name": "RUSSIA TODAY",
+            "uri": "/hls/rt/index.m3u8"
+        },
+        {
+            "name": "RT DOCUMENTARY",
+            "uri": "/hls/rtdoc/index.m3u8"
+        },
+        {
+            "name": "FASHION TV",
+            "uri": "/hls/fashion/index.m3u8"
+        },
+        {
+            "name": "CNBC EUROPE",
+            "uri": "/hls/cnbceurope/index.m3u8"
+        }
+    ]
+}
