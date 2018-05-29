@@ -1,6 +1,8 @@
 $(document).ready(() => {
     
-
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $('#intro').css('height', '95vh')
+       }
     let controller = new ScrollMagic.Controller();
 
     TweenMax.to("#intro .content h1", 2, { autoAlpha: 1, ease: Power2.easeOutIn });
