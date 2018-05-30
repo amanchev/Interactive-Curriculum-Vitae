@@ -36,30 +36,30 @@ $(document).ready(() => {
         let tweenMaxObj = new TimelineMax();
 
         tweenMaxObj
-            .from(this.children[0].children[0], 0.3, { x: -25, y: -25, autoAlpha: 0, ease: Power1.easeOut, delay: 0.2 })
-            .from(this.children[0].children[1], 0.3, { x: -25, y: 25, autoAlpha: 0, ease: Power1.easeOut, delay: 0.1 });
+            .from(this.children[0].children[0], 0.2, { x: -25, y: -25, autoAlpha: 0, ease: Power1.easeOut, delay: 0.1 })
+            .from(this.children[0].children[1], 0.2, { x: -25, y: 25, autoAlpha: 0, ease: Power1.easeOut, delay: 0.1 });
 
         if (this.children[0].children[2] !== undefined) {
             tweenMaxObj
-                .from(this.children[0].children[2], 0.3, { x: -25, y: 25, autoAlpha: 0, ease: Power1.easeOut, delay: 0.2 })
+                .from(this.children[0].children[2], 0.2, { x: -25, y: 25, autoAlpha: 0, ease: Power1.easeOut, delay: 0.1 })
         }
 
         if (this.children[1] !== undefined) {
             tweenMaxObj
-                .from(this.children[1].children[0], 0.3, { x: -25, y: 0, autoAlpha: 0, ease: Power1.easeOut, delay: 0.2 })
+                .from(this.children[1].children[0], 0.2, { x: -25, y: 0, autoAlpha: 0, ease: Power1.easeOut, delay: 0.1 })
 
             if (this.children[1].children[1] !== undefined) {
 
                 Object.values(this.children[1].children[1].children).forEach(element => {
                     tweenMaxObj
-                        .from(element, 0.2, { x: -25, y: -25, autoAlpha: 0, ease: Power1.easeOut, delay: 0 })
+                        .from(element, 0.1, { x: -25, y: -25, autoAlpha: 0, ease: Power1.easeOut, delay: 0 })
                 });
             }
         }
         console.log(this);
         let info = new ScrollMagic.Scene({
             triggerElement: this,
-            triggerHook: 0.60,
+            triggerHook: 0.70,
 
         })
             .setTween(
