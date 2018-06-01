@@ -1,7 +1,11 @@
 $(document).ready(() => {
     
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $('#intro').css('height', '95vh')
+        $('#intro').css('height', '95vh');
+        $('#intro img').css('bottom', '5vh');
+        $('#intro img').css('bottom', '5vh');
+        console.log($( window ).innerHeight());
+        $('#intro h1').html($( window ).innerHeight())
        }
     let controller = new ScrollMagic.Controller();
 
