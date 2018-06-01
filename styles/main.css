@@ -60,7 +60,7 @@ body
     letter-spacing: 0.1px;
     line-height: 1.2;
     opacity: 0;
-    margin: 0 0 25px 0;
+    margin: 0 0 25px -30px;
   
   }
   .scroll-down:before {

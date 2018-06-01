@@ -1,11 +1,16 @@
+
 $(document).ready(() => {
     
+    
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $('#intro').css('height', '95vh');
-        $('#intro img').css('bottom', '5vh');
-        $('#intro img').css('bottom', '5vh');
-        console.log($( window ).innerHeight());
-        $('#intro h1').html($( window ).innerHeight())
+    
+
+        
+        let addressBarHeight = ($( '#intro' ).height()) - window.innerHeight;
+        $('#intro').css('height', ($( '#intro' ).height() - addressBarHeight) + 'px');
+        $('#intro img').css('bottom', addressBarHeight +'px');
+        $('.scroll-down').css('bottom', addressBarHeight +'px');
+        
        }
     let controller = new ScrollMagic.Controller();
 
@@ -64,6 +69,7 @@ $(document).ready(() => {
         let info = new ScrollMagic.Scene({
             triggerElement: this,
             triggerHook: 0.70,
+            repeat:false,
 
         })
             .setTween(
